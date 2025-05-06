@@ -1,0 +1,51 @@
+.container{
+    align-items: center;
+    text-align: center;
+    margin: 30px auto;
+      
+  }
+  
+  body{
+    background-image: linear-gradient(
+      to top,
+      #000000
+      #ffffff
+    );
+  }
+  
+  .container #h1{
+    text-align: center;
+    font-size: 34px;
+    font-family: "Poppins";
+    padding-bottom: 20px;
+  }
+  
+  .bgcover #hp{
+    height: 600px;
+    filter: blur(5px);
+    border-radius: 50px;
+  }
+  
+  .img #cover{
+    height: 300px;
+    position: relative;
+    top: -550px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: all 0.35s ease-in;
+  }
+  
+  .img #cover:hover{
+    filter: grayscale(0%);
+    transition: all 0.40s ease-in;
+  }
+  
+  .audio p{
+    padding-bottom: 30px;
+    color: #ffffff;
+    font-family: "Poppins";
+  }
+  .audio{
+    position: relative;
+    top: -510px;
+  }
